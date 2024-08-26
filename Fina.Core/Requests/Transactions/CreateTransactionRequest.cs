@@ -1,4 +1,4 @@
-﻿using Dima.Core.Models.Enums;
+﻿using Fina.Core.Models.Enums;
 using System.ComponentModel.DataAnnotations;
 
 namespace Fina.Core.Requests.Transactions
@@ -18,6 +18,6 @@ namespace Fina.Core.Requests.Transactions
         public long CategoryId { get; set; }
 
         [Required(ErrorMessage = "Data inválida")]
-        public DateTime? PaidOrReceived { get; set; }
+        public DateTime? PaidOrReceivedAt { get; set; }
     }
 }

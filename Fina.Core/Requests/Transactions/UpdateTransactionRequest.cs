@@ -1,4 +1,4 @@
-﻿using Dima.Core.Models.Enums;
+﻿using Fina.Core.Models.Enums;
 using System.ComponentModel.DataAnnotations;
 
 namespace Fina.Core.Requests.Transactions

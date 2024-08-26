@@ -1,4 +1,4 @@
-﻿namespace Dima.Core.Models.Enums
+﻿namespace Fina.Core.Models.Enums
 {
     public enum ETransactionType
     {

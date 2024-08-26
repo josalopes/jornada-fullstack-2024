@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace Fina.Core.Responses
 {
-    public abstract class Response<T>
+    public class Response<T>
     {
         private int _code = Configuration.DefaultStatusCode;
         public T? Data { get; set; }
