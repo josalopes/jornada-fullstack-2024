@@ -2,6 +2,7 @@
 using Fina.Api.Data;
 using Fina.Api.Handlers;
 using Fina.Core.Handlers;
+using Fina.Core.Requests.Categories;
 using Microsoft.EntityFrameworkCore;
 
 namespace Fina.Api
@@ -43,7 +44,6 @@ namespace Fina.Api
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 

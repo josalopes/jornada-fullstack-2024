@@ -93,12 +93,6 @@ namespace Fina.Core.Handlers
                     .AsNoTracking()
                     .FirstOrDefaultAsync(x => x.Id == request.Id && x.UserId == request.UserId);
 
-                if (category is null)
-                {
-                    return new Response<Category?>(null, 404, "Categoria não encontrada");
-                }
-
-
                 return category is null
                     ? new Response<Category?>(null, 404, "Categoria não encontrada")
                     : new Response<Category?>(category);
